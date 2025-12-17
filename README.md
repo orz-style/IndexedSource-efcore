@@ -5,7 +5,7 @@ Materials of SourceBrowser webstite for efcore
 
 | Source | Version |
 | --- | --- |
-| [dotnet/efcore](https://github.com/dotnet/efcore) | 7.0.13 |
+| [dotnet/efcore](https://github.com/dotnet/efcore) | 10.0.1 |
 
 
 ## Related Links
