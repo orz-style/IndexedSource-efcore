@@ -46,7 +46,7 @@ jobs:
       # Upload artifacts
       # https://github.com/actions/upload-artifact
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v6
         with:
           name: artifacts
           path: ${{ env.ARTIFACTS_ZIP }}
@@ -69,7 +69,7 @@ jobs:
       # Download Artifacts
       # https://github.com/actions/download-artifact
       - name: Download Artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v7
         with:
           name: artifacts
           path: artifacts
