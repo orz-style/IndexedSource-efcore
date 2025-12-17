@@ -10,7 +10,7 @@ on:
         type: string
 
 env:
-  SOURCE_BROWSER: https://www.nuget.org/api/v2/package/SourceBrowser/1.0.43
+  SOURCE_BROWSER: https://www.nuget.org/api/v2/package/SourceBrowser/1.0.46
   SOLUTION_FILE: .\efcore\All.sln
   ARTIFACTS_ZIP: artifacts.zip
   REGISTRY: ghcr.io
