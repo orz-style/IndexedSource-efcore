@@ -29,7 +29,7 @@ jobs:
 
       - name: Download HtmlGenerator
         run: |
-          Invoke-WebRequest ${{ env.SOURCE_BROWSER }} -o HtmlGenerator.zip
+          Invoke-WebRequest ${{ env.SOURCE_BROWSER }} -OutFile HtmlGenerator.zip
 
       - name: Setup HtmlGenerator
         run: |
